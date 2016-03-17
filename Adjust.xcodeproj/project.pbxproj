@@ -184,6 +184,13 @@
 			remoteGlobalIDString = 9679920C18BBAE2800394606;
 			remoteInfo = Adjust;
 		};
+		968E53FE1C99C4E200AC53F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 968E53F81C99C4E100AC53F2 /* AdjustExample-webView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 968E53DE1C99C4E100AC53F2;
+			remoteInfo = "AdjustExample-webView";
+		};
 		9DE7C8FF1AE68EF1001556E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9679920518BBAE2800394606 /* Project object */;
@@ -241,6 +248,7 @@
 		96854A581B1F2779002B2874 /* ADJTimerOnce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJTimerOnce.m; sourceTree = "<group>"; };
 		96854A5D1B1F278C002B2874 /* ADJTimerCycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADJTimerCycle.h; sourceTree = "<group>"; };
 		96854A5E1B1F278C002B2874 /* ADJTimerCycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJTimerCycle.m; sourceTree = "<group>"; };
+		968E53F81C99C4E100AC53F2 /* AdjustExample-webView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "AdjustExample-webView.xcodeproj"; path = "examples/AdjustExample-webView/AdjustExample-webView.xcodeproj"; sourceTree = "<group>"; };
 		969952CD1A012F5300928462 /* ADJAttributionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADJAttributionHandler.h; sourceTree = "<group>"; };
 		969952CE1A012F5300928462 /* ADJAttributionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJAttributionHandler.m; sourceTree = "<group>"; };
 		969952D01A01309200928462 /* ADJAttribution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADJAttribution.h; sourceTree = "<group>"; };
@@ -416,6 +424,7 @@
 		9679920418BBAE2800394606 = {
 			isa = PBXGroup;
 			children = (
+				968E53F81C99C4E100AC53F2 /* AdjustExample-webView.xcodeproj */,
 				963909C91BCC0D8300A2E8A4 /* AdjustExample-tvOS.xcodeproj */,
 				963909621BCBFE5200A2E8A4 /* AdjustExample-iOS.xcodeproj */,
 				96E5E39A18BBB49E008E7B30 /* AdjustTests */,
@@ -447,6 +456,14 @@
 				9679921018BBAE2800394606 /* Foundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		968E53F91C99C4E100AC53F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				968E53FF1C99C4E200AC53F2 /* AdjustExample-webView.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		96CD2BDB1A13BFC600A40AFB /* ADJAdditions */ = {
@@ -801,6 +818,10 @@
 					ProductGroup = 963909CA1BCC0D8300A2E8A4 /* Products */;
 					ProjectRef = 963909C91BCC0D8300A2E8A4 /* AdjustExample-tvOS.xcodeproj */;
 				},
+				{
+					ProductGroup = 968E53F91C99C4E100AC53F2 /* Products */;
+					ProjectRef = 968E53F81C99C4E100AC53F2 /* AdjustExample-webView.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -825,6 +846,13 @@
 			fileType = wrapper.application;
 			path = "AdjustExample-tvOS.app";
 			remoteRef = 963909CD1BCC0D8400A2E8A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		968E53FF1C99C4E200AC53F2 /* AdjustExample-webView.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "AdjustExample-webView.app";
+			remoteRef = 968E53FE1C99C4E200AC53F2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
