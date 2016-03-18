@@ -25,3 +25,4 @@ FOUNDATION_EXPORT const unsigned char AdjustSdkVersionString[];
 #import <AdjustSdk/ADJEventFailure.h>
 #import <AdjustSdk/ADJSessionSuccess.h>
 #import <AdjustSdk/ADJSessionFailure.h>
+#import <AdjustSdk/ADJCriteo.h>
