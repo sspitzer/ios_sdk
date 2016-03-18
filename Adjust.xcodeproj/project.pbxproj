@@ -50,6 +50,11 @@
 		96854A5A1B1F2779002B2874 /* ADJTimerOnce.m in Sources */ = {isa = PBXBuildFile; fileRef = 96854A581B1F2779002B2874 /* ADJTimerOnce.m */; };
 		96854A5F1B1F278C002B2874 /* ADJTimerCycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 96854A5D1B1F278C002B2874 /* ADJTimerCycle.h */; };
 		96854A601B1F278C002B2874 /* ADJTimerCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 96854A5E1B1F278C002B2874 /* ADJTimerCycle.m */; };
+		968E54341C9C3EB500AC53F2 /* ADJSociomantic.h in Headers */ = {isa = PBXBuildFile; fileRef = 968E54321C9C3EB500AC53F2 /* ADJSociomantic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		968E54351C9C3EB500AC53F2 /* ADJSociomantic.m in Sources */ = {isa = PBXBuildFile; fileRef = 968E54331C9C3EB500AC53F2 /* ADJSociomantic.m */; };
+		968E54361C9C3EB500AC53F2 /* ADJSociomantic.m in Sources */ = {isa = PBXBuildFile; fileRef = 968E54331C9C3EB500AC53F2 /* ADJSociomantic.m */; };
+		968E543C1C9C3EBC00AC53F2 /* ADJSociomantic.h in Headers */ = {isa = PBXBuildFile; fileRef = 968E543A1C9C3EBC00AC53F2 /* ADJSociomantic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		968E543D1C9C3EBC00AC53F2 /* ADJSociomantic.m in Sources */ = {isa = PBXBuildFile; fileRef = 968E543B1C9C3EBC00AC53F2 /* ADJSociomantic.m */; };
 		969952CF1A012F5300928462 /* ADJAttributionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 969952CE1A012F5300928462 /* ADJAttributionHandler.m */; };
 		969952D21A01309200928462 /* ADJAttribution.m in Sources */ = {isa = PBXBuildFile; fileRef = 969952D11A01309200928462 /* ADJAttribution.m */; };
 		96BCFBCD1AC99231005A65C5 /* Adjust.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E34C18BBB48A008E7B30 /* Adjust.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -241,6 +246,10 @@
 		96854A581B1F2779002B2874 /* ADJTimerOnce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJTimerOnce.m; sourceTree = "<group>"; };
 		96854A5D1B1F278C002B2874 /* ADJTimerCycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADJTimerCycle.h; sourceTree = "<group>"; };
 		96854A5E1B1F278C002B2874 /* ADJTimerCycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJTimerCycle.m; sourceTree = "<group>"; };
+		968E54321C9C3EB500AC53F2 /* ADJSociomantic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADJSociomantic.h; sourceTree = "<group>"; };
+		968E54331C9C3EB500AC53F2 /* ADJSociomantic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJSociomantic.m; sourceTree = "<group>"; };
+		968E543A1C9C3EBC00AC53F2 /* ADJSociomantic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADJSociomantic.h; sourceTree = "<group>"; };
+		968E543B1C9C3EBC00AC53F2 /* ADJSociomantic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJSociomantic.m; sourceTree = "<group>"; };
 		969952CD1A012F5300928462 /* ADJAttributionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADJAttributionHandler.h; sourceTree = "<group>"; };
 		969952CE1A012F5300928462 /* ADJAttributionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJAttributionHandler.m; sourceTree = "<group>"; };
 		969952D01A01309200928462 /* ADJAttribution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADJAttribution.h; sourceTree = "<group>"; };
@@ -449,6 +458,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		968E54311C9C3EB500AC53F2 /* Sociomantic */ = {
+			isa = PBXGroup;
+			children = (
+				968E54321C9C3EB500AC53F2 /* ADJSociomantic.h */,
+				968E54331C9C3EB500AC53F2 /* ADJSociomantic.m */,
+			);
+			path = Sociomantic;
+			sourceTree = "<group>";
+		};
+		968E54391C9C3EBC00AC53F2 /* Sociomantic */ = {
+			isa = PBXGroup;
+			children = (
+				968E543A1C9C3EBC00AC53F2 /* ADJSociomantic.h */,
+				968E543B1C9C3EBC00AC53F2 /* ADJSociomantic.m */,
+			);
+			path = Sociomantic;
+			sourceTree = "<group>";
+		};
 		96CD2BDB1A13BFC600A40AFB /* ADJAdditions */ = {
 			isa = PBXGroup;
 			children = (
@@ -465,6 +492,7 @@
 		96E5E34B18BBB48A008E7B30 /* Adjust */ = {
 			isa = PBXGroup;
 			children = (
+				968E54311C9C3EB500AC53F2 /* Sociomantic */,
 				96CD2BDB1A13BFC600A40AFB /* ADJAdditions */,
 				96E5E34C18BBB48A008E7B30 /* Adjust.h */,
 				96E5E34D18BBB48A008E7B30 /* Adjust.m */,
@@ -561,6 +589,7 @@
 		9DA11A321C96D2A200980777 /* Adjust */ = {
 			isa = PBXGroup;
 			children = (
+				968E54391C9C3EBC00AC53F2 /* Sociomantic */,
 				9DA11A3B1C96D2A200980777 /* ADJAdditions */,
 				9DA11A331C96D2A200980777 /* ADJActivityHandler.h */,
 				9DA11A341C96D2A200980777 /* ADJActivityHandler.m */,
@@ -652,6 +681,7 @@
 				9601CAE81C74BAAE00670879 /* ADJEventFailure.h in Headers */,
 				9601CAE41C74B70600670879 /* ADJEventSuccess.h in Headers */,
 				968173871C3C2D36002AE1DE /* ADJSessionFailure.h in Headers */,
+				968E54341C9C3EB500AC53F2 /* ADJSociomantic.h in Headers */,
 				968173831C3C2D07002AE1DE /* ADJSessionSuccess.h in Headers */,
 				96BCFBD91AC9934E005A65C5 /* ADJAdjustFactory.h in Headers */,
 				96BCFBD81AC9934B005A65C5 /* ADJActivityState.h in Headers */,
@@ -686,6 +716,7 @@
 				9DA11A851C96D2A200980777 /* ADJEventSuccess.h in Headers */,
 				9DA11A911C96D2A300980777 /* ADJSessionFailure.h in Headers */,
 				9DA11A931C96D2A300980777 /* ADJSessionSuccess.h in Headers */,
+				968E543C1C9C3EBC00AC53F2 /* ADJSociomantic.h in Headers */,
 				9DA11A7F1C96D2A200980777 /* ADJDeviceInfo.h in Headers */,
 				9DA11A6F1C96D2A200980777 /* ADJActivityState.h in Headers */,
 				9DA11A771C96D2A200980777 /* ADJAdjustFactory.h in Headers */,
@@ -902,6 +933,7 @@
 				96C0EFE01A3EF47A00B39F31 /* NSString+ADJAdditions.m in Sources */,
 				96C0EFE11A3EF47A00B39F31 /* UIDevice+ADJAdditions.m in Sources */,
 				96E5E38118BBB48A008E7B30 /* Adjust.m in Sources */,
+				968E54351C9C3EB500AC53F2 /* ADJSociomantic.m in Sources */,
 				96E5E38B18BBB48A008E7B30 /* ADJActivityHandler.m in Sources */,
 				96E5E39618BBB48A008E7B30 /* ADJRequestHandler.m in Sources */,
 				96FCC53B1C186426007BBFE1 /* ADJResponseData.m in Sources */,
@@ -940,6 +972,7 @@
 				96E5E3B618BBB49E008E7B30 /* ADJTestsUtil.m in Sources */,
 				96DD62751C52810500DDF56A /* ADJTrackingSucceededDelegate.m in Sources */,
 				96CD2BE11A13BFC600A40AFB /* UIDevice+ADJAdditions.m in Sources */,
+				968E54361C9C3EB500AC53F2 /* ADJSociomantic.m in Sources */,
 				96FDD75E1C566C38009C402E /* NSURLSession+NSURLDataWithRequestMocking.m in Sources */,
 				9620EA511B065177009673F1 /* ADJPackageFields.m in Sources */,
 				9620EA4E1B06401B009673F1 /* ADJTest.m in Sources */,
@@ -963,6 +996,7 @@
 				9DA11A9C1C96D2A300980777 /* ADJUtil.m in Sources */,
 				9DA11A7C1C96D2A200980777 /* ADJAttributionHandler.m in Sources */,
 				9DA11A961C96D2A300980777 /* ADJTimerCycle.m in Sources */,
+				968E543D1C9C3EBC00AC53F2 /* ADJSociomantic.m in Sources */,
 				9DA11A921C96D2A300980777 /* ADJSessionFailure.m in Sources */,
 				9DA11A6C1C96D2A200980777 /* ADJActivityKind.m in Sources */,
 				9DA11A8E1C96D2A300980777 /* ADJRequestHandler.m in Sources */,
